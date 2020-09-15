@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Kayal Tube",
+    "slug": "pro1",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/kpm.png",
+    "splash": {
+      "image": "./assets/k.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"com.kayaltube.salih",
+      "config":{
+        "googleMobileAdsAppId": "ca-app-pub-3689443750072931~2168342735"
+      }
+      
+    }
+  }
+}
